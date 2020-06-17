@@ -1,0 +1,637 @@
+/* Repetable elements */
+section{
+    margin-bottom: 100px;
+}
+.section-header{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.section-header::after{
+    content: url('imgs/Rectangle40.png');
+  
+}
+.section-header h3{
+    color: #8a8181;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.section-header p{
+    color: #c4c4c4;
+}
+.btn-secondary{
+    background-color: #d3d3d345;
+    color: #fff;
+    display: table;
+    margin: 0 auto;
+    padding: 5px 50px;
+    font-weight: 400;
+    font-size: 1.2em;
+    border: none;
+}
+.btn-success{
+    text-align: center;
+    background-color: #64b95ddb  !important;
+    color: white !important;
+    padding:10px 50px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+/* Top Section */
+.top-section{
+    overflow: hidden;
+}
+/* navbar section */
+.navbar .nav-item .nav-link{
+    margin-left:35px;
+    color:#fff;
+    font-weight: 600;
+    font-size: 1.2em;
+
+}
+.navbar .btn-secondary, .navbar .btn-secondary:active,
+ .navbar .btn-secondary:visited, .navbar .btn-secondary:not(:disabled):not(.disabled).active,
+ .navbar .btn-secondary:not(:disabled):not(.disabled):active,
+  .show>.navbar .btn-secondary.dropdown-toggle{
+    background-color: #868080;
+    padding: 7px 22px;
+}
+.header .container-fluid{
+    padding-right: 0;
+}
+.header .left{
+    z-index:-1;
+    margin-top: -100px;
+    padding-right: 0;
+
+} 
+.navbar{
+    background: transparent !important;
+}
+.navbar-brand{
+    color: #8a8181 !important;
+    font-size: 3em;
+    font-weight: 700;
+
+}
+.header .right{
+    /* margin-left: 270px; */
+    margin-top: 115px;
+    
+}
+.header .right h1{
+    font-weight: 100;
+    font-size: 2.9em;
+    color: #7cc575;
+    letter-spacing: 0.06em;
+}
+.header .right h2{
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #7cc575;
+}
+.header .right p{
+    color: #a79d9d;
+
+}
+/* Best Deals Section */
+
+
+.deals-section .card{
+    width:85%;
+    height: 100%;
+    border-radius: 20px;
+    background-image: url('imgs/Rectangle32.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+    
+}
+.deals .row .col-md-4{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.deals-section .card img{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -43px;
+
+}
+.deals{
+    margin-top:100px;
+}
+.deals-section .card h5{
+    font-size: 1.4em;
+    font-weight: 700;
+}
+.deals-section .card a, .deals-section .card a:active, .deals-section .card a:visited{
+    color:rgba(255, 255, 255, 0.623);
+    font-size: 1.1em !important;
+    font-weight: 500;
+}
+.deals-section .last-card img{
+    width:58%;
+}
+
+/* New Born Section */
+
+.newborn .card{
+    text-align: center;
+    border: none;
+}
+.newborn .card-img-top{
+    width: 80%;
+    margin: 0 auto;
+}
+.newborn .card .card-title{
+    color: #64b95d;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+.newborn .card p{
+    color: #c4c4c4;
+}
+.newborn .first-newborn::after{
+    content: url('imgs/Rectangle4.png');
+    
+}
+
+/* Baby Carriers Section */
+
+.carrier-section .carrier{
+    margin-left: 0;
+    padding-left: 0;
+}
+.carrier img{
+   width:100%;
+
+}
+.carrier-section h3{
+    margin-top: 228px;
+    color: #7b7272;
+}
+.carrier-section p{
+    color: #a09393;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.carrier-section .carrier-price{
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: #64b95ddb ;
+}
+
+/* Articles Section */
+
+.articles-section .article{
+    border: none;
+    border-radius: 25%;
+    color: #7f7878;
+
+}
+.article-date{
+    color: #64b95d;
+    font-weight: 500;
+    font-size: 0.7em;
+}
+.articles .article i{
+    color: #64b95d;
+    
+}
+.articles .btn-secondary{
+    background-color: #d3d3d345;
+    color: rgb(190, 186, 186)!important;
+    display: table;
+    margin: 0 auto;
+    padding: 5px 50px;
+    font-weight: 400;
+    font-size: 1.2em;
+    border: none;
+}
+
+
+/* introductory Section */
+.introductory-section{
+    background-color: #7cc575;
+    background-image: url("imgs/Group3451.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+.introductory-section p{
+    font-weight: 100;
+    font-size: 1.8em;
+    color:#fff;
+}
+
+.introductory-section a{
+    color: #fff;
+    font-size: 1.6em;
+    font-weight: 700;
+}
+.introductory-section .section-header{
+    margin-bottom: 30px !important;
+}
+
+/* customer-reviews */
+.reviews-section{
+    background-color: #f6f6f6;
+}
+
+.slick-prev:before {
+    content: "<";
+    color: #4f4b4b;
+    font-size: 40px;
+    font-weight: 900;
+    background: #fff;
+    border-radius: 50%;
+    padding: 13px;
+    line-height: 0;
+    opacity: 100%;
+
+  }
+  .slick-next:before {
+    content: ">";
+    color: #4f4b4b;
+    font-size: 40px;
+    font-weight: 900;
+    background: #fff;
+    border-radius: 50%;
+    padding: 13px;;
+    line-height: 0;
+    opacity: 100%;
+  }
+ 
+ 
+  /* rating stars  */
+  .rate {
+    height: 46px;
+    /* padding: 0 10px; */
+    display: inline-block;
+
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+/* carousel-items */
+
+
+.slick-slide{
+    /* width: 80%; */
+    display: inline-block;
+    background: #fff;
+    margin-right: 20px;
+    padding-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-right: 33px;
+    margin-bottom: 50px
+
+}
+.carousel-item p{
+    display: inline-block;
+}
+.slick-slide p{
+    color:#a59e9e;
+    font-weight: 700;
+    font-size: 0.7em;
+    line-height: 2;
+}
+.slick-slide .date{
+    color:#64b95d;
+}
+.slick-slide h3{
+    color: #767575;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+/* newsletter signup section */
+
+.newsletter{
+    background-image: url('imgs/Rectangle37.png');
+    padding:100px 70px;
+    border-radius: 25px;
+    color:#ffff
+}
+.newsletter .btn-secondary, .newsletter .btn-secondary:active,
+ .newsletter .btn-secondary:visited, .newsletter .btn-secondary:not(:disabled):not(.disabled).active,
+ .newsletter .btn-secondary:not(:disabled):not(.disabled):active,
+  .show>.newsletter .btn-secondary.dropdown-toggle{
+    background-color: #868080;
+    margin-top: 58px;
+    padding: 7px 22px;
+}
+.newsletter h3{
+    font-weight: 100;
+    font-size: 3.7em;
+}
+.newsletter h2{
+    font-weight: 900;
+    font-size: 3.3em;
+}
+
+/* footer-section */
+.top-footer .col-md-9 .col-md-3 a{
+    display: block;
+    color: #325476c9;
+    font-weight: 600;
+    background-color: transparent;
+    border-radius: none;
+    padding: initial;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.top-footer .col-md-9 h3{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #868080;
+}
+.top-footer .col-md-3 a i{
+    color: #fff;
+    background-color: #64b95d;
+    border-radius: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right:10px;
+
+}
+.top-footer .col-md-3 a .fa-facebook{
+    padding: 10px 15px;;
+    font-weight: 700;
+    font-size: 14px;
+}
+.top-footer .col-md-3 a .fa-twitter{
+    padding: 10px 12px;
+}
+.top-footer .col-md-3 a .fa-google-plus{
+    padding: 10px 11px;
+}
+.top-footer .col-md-3 a .fa-youtube-play{
+    padding: 10px 11px;
+}
+.top-footer .col-md-3 p{
+    font-size: 0.7em;
+    font-weight: 400;
+    color: #868080;
+}
+
+.bottom-footer{
+    margin-top:60px;
+    text-align: center;
+}
+.bottom-footer p{
+    font-size: 0.9em;
+    color: #868080;
+}
+.bottom-footer h3::after{
+    content: url('imgs/sgll.png');
+    display: block;
+}
+.bottom-footer h3{
+    margin-bottom: 30px;
+}
+
+/* media queries */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    /* Smartphones (landscape) ----------- */
+    @media only screen and (max-width : 321px) {
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    /* Smartphones (portrait) ----------- */
+    @media only screen and (min-width : 320px) and (max-width : 768px){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+   
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (max-device-width : 768px) and (orientation : landscape) {
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (max-device-width : 768px) and (orientation : portrait) {
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (max-device-width : 768px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    @media only screen and (max-device-width : 768px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+   
+    
+    /* iPhone 4 ----------- */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    /* iPhone 5 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    /* iPhone 6, 7, 8 ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    /* iPhone 6+, 7+, 8+ ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    /* iPhone X ----------- */
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    @media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+
+    }
+    
+    /* iPhone XS Max, XR ----------- */
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    @media only screen and (min-device-width: 414px) and (max-device-height: 896px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    /* Samsung Galaxy S3 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    /* Samsung Galaxy S4 ----------- */
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    /* Samsung Galaxy S5 ----------- */
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
+    @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+    /* Styles */
+    .navbar-nav{
+        position: absolute;
+    }
+    }
+    
